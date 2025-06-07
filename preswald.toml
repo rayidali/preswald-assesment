@@ -1,0 +1,25 @@
+[project]
+name = "AI Job Market Analysis"
+description = "Analysis of AI job market with cost of living adjustments"
+version = "0.1.0"
+port = 8501
+slug = "my-app-613868"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[export]
+format = "html"
+output_dir = "output" 
